@@ -3,6 +3,17 @@
 const path = require('path')
 const AutoLoad = require('@fastify/autoload')
 
+
+console.log(`
+.___  _________.___.____     ________   ____ _____________ 
+|   |/   _____/|   |    |    \\______ \\ |    |   \\______   \\
+|   |\\_____  \\ |   |    |     |    |  \\|    |   /|       _/
+|   |/        \\|   |    |___  |    \`   \\    |  / |    |   \\
+|___/_______  /|___|_______ \\/_______  /______/  |____|_  /
+            \\/             \\/        \\/                 \\/ 
+Author: egeominotti@gmail.com
+`);
+
 // Pass --options via CLI arguments in command to enable these options.
 module.exports.options = {}
 
