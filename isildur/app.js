@@ -14,7 +14,6 @@ console.log(`
 Author: egeominotti@gmail.com
 `);
 
-// Pass --options via CLI arguments in command to enable these options.
 module.exports.options = {}
 
 module.exports = async function (fastify, opts) {
